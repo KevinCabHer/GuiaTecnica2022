@@ -15,6 +15,8 @@ public class SearchCoursePage extends PageObject {
     public static final Target COURSE = Target.the("Course JAVA").
             located(By.xpath("/html/body/div[2]/div[2]/div/div/div/section/div/div/div[1]/h4/a"));
 
+    public static final Target NAME_COURSE = Target.the("title course")
+            .located(By.xpath("/html/body/div[1]/div[2]/div/header/div/div/div[2]/div[1]/div[1]/a/div/div/h1"));
 
 }
 //EXAMEN JAVA - Cursos y Certificaciones
